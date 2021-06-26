@@ -10,6 +10,6 @@
     <include file="$(find gps_navigation)/launch/start_map_server.launch" />
 
     <!--- Run Move Base -->
-    <include file="$(find my_move_base)/launch/my_move_base.launch" />
+    <include file="$(find truck_move_base)/launch/truck_move_base.launch" />
 
 </launch>
