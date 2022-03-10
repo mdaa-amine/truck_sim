@@ -26,7 +26,7 @@ roslaunch truck_description spawn_robot.launch
 ```
 ![image](https://user-images.githubusercontent.com/60377645/116946948-0331b700-ac6b-11eb-90c1-0fe60e5ecfb1.png)
 
-* launch go to point whill avoiding obstacles node
+* launch go to point while avoiding obstacles node.
 ```
 rosrun controller go_to_points_while_avoiding_obstacles.py
 ```
