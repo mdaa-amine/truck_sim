@@ -4,8 +4,8 @@ autonomous mining truck:
 * Clone , build & Configure :
 
 ```
-git clone https://github.com/med0amine/catkin_ws.git
-cd catkin_ws
+git clone https://github.com/mdaa-amine/truck_sim
+cd truck_sim
 catkin_make
 rosdep check --from-paths src --ignore-src --rosdistro melodic
 rosdep install --from-paths src --ignore-src --rosdistro melodic -y
