@@ -1,7 +1,7 @@
 # truck_sim
 autonomous mining truck:
 
-* Clone , build & Configure :
+* Clone , build & Configure : Ros Melodic Based.
 
 ```
 git clone https://github.com/mdaa-amine/truck_sim
