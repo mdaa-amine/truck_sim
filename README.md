@@ -20,6 +20,10 @@ sudo apt-get install ros-melodic-joint-state-*
 sudo apt-get install ros-melodic-hector-gazebo-plugins
 sudo apt-get install ros-melodic-position-controllers
 ```
+* As we use gps install the hector plugin.
+```
+sudo apt-get install ros-melodic-hector-gazebo-plugins
+```
 * launch the simulation:
 ```
 roslaunch truck_description spawn_robot.launch
