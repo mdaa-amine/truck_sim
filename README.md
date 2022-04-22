@@ -1,7 +1,7 @@
 # truck_sim
 autonomous mining truck:
 
-* Clone , build & Configure : Ros Melodic Based.
+* Clone , build & Configure : # Ros Melodic Based
 
 ```
 git clone https://github.com/mdaa-amine/truck_sim
@@ -24,9 +24,11 @@ sudo apt-get install ros-melodic-position-controllers
 ```
 roslaunch truck_description spawn_robot.launch
 ```
-![image](https://user-images.githubusercontent.com/60377645/116946948-0331b700-ac6b-11eb-90c1-0fe60e5ecfb1.png)
+
+![truck](https://user-images.githubusercontent.com/60377645/164751588-f38fe524-27f7-4fee-8e50-36f4b56f4f19.png)
+
 
 * launch go to point while avoiding obstacles node.
 ```
-rosrun controller go_to_points_while_avoiding_obstacles.py
+rosrun truck_control go_to_points_while_avoiding_obstacles.py
 ```
