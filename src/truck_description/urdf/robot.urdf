@@ -398,30 +398,6 @@
         <updateRate>5.0</updateRate> 
     </plugin>
 </gazebo>
-<!-- ==========================   logo   ================================== -->
-  <link name="logo_link">
-    <visual>
-      <origin xyz="0.0 0 0.0" rpy="1.57  0  1.57"/>
-      <geometry>
-        <mesh filename="package://truck_description/meshes/NeatStantia_fixed.stl" scale="0.0042 0.0022 0.0042"/>
-      </geometry>
-      <material name="black"/>
-    </visual>
-    <collsion>
-      <geometry>
-        <cylinder radius="0.03" length="0.01"/>
-      </geometry>
-
-    </collsion>
-  </link>
-
-  <joint name="logo_joint" type="fixed">
-    <parent link="ban_link"/>
-    <child link="logo_link"/>
-    <origin xyz="0.72 -0.03 0.29" rpy="0 0 0"/>
-  </joint>
-
-
 
 <!-- ==========================   sensor_gps   ================================== -->
   <link name="gps_link">
