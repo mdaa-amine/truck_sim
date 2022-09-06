@@ -31,7 +31,11 @@ roslaunch truck_description spawn_robot.launch
 ![truck](https://user-images.githubusercontent.com/60377645/164751588-f38fe524-27f7-4fee-8e50-36f4b56f4f19.png)
 
 
-* launch go to point while avoiding obstacles node.
+* launch go to point while avoiding obstacles node (New Terminal).
 ```
+cd truck_sim
+source devel/setup.bash
+cd src/truck_control/src/
+chmod u+x *
 rosrun truck_control go_to_points_while_avoiding_obstacles.py
 ```
