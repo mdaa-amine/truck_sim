@@ -11,7 +11,6 @@ rosdep check --from-paths src --ignore-src --rosdistro melodic
 rosdep install --from-paths src --ignore-src --rosdistro melodic -y
 source devel/setup.bash
 ```
-
 * dependencies:
 ```
 sudo apt-get install ros-melodic-effort-control*
