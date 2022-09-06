@@ -5,11 +5,11 @@ autonomous mining truck:
 
 ```
 git clone https://github.com/mdaa-amine/truck_sim
-cd truck_sim
-catkin_make
+cd truck_sim && catkin_make 
+source devel/setup.bash
 rosdep check --from-paths src --ignore-src --rosdistro <ROS-DISTRO>
 rosdep install --from-paths src --ignore-src --rosdistro <ROS-DISTRO> -y
-source devel/setup.bash
+
 ```
 * dependencies:
 ```
