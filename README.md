@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="HrUSk__Q8Tfq1yS8_xyRphP7HRR8wCcQwGYts3Plg0w" />
 # truck_sim
 autonomous mining truck:
 
