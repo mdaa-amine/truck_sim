@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 import rospy
 from std_msgs.msg import String
 from tf.transformations import euler_from_quaternion
@@ -95,7 +95,7 @@ while not rospy.is_shutdown():
 		# #print(ranges)
 		gap_list = []
 		for k, g in groupby(enumerate(ranges), lambda (i,x):i-x):
-		    .gap_list.append(map(itemgetter(1), g))
+		    gap_list.append(map(itemgetter(1), g))
 		gap_list.sort(key=len)
 		largest_gap = gap_list[-1]
 		min_angle, max_angle = largest_gap[0]*((data.angle_increment)*180/PI), largest_gap[-1]*((data.angle_increment)*180/PI)
