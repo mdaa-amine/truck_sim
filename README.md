@@ -1,7 +1,7 @@
 # truck_sim
 autonomous mining truck:
 
-* Clone , build & Configure : # Ros <ROS-DISTRO> : Melodic.
+* Clone , build & Configure : # Ros <ROS-DISTRO> : Melodic and Pyhton2.
 
 ```
 git clone https://github.com/mdaa-amine/truck_sim
@@ -39,3 +39,4 @@ cd src/truck_control/src/
 chmod u+x *
 rosrun truck_control go_to_points_while_avoiding_obstacles.py
 ```
+![truck](https://github.com/mdaa-amine/truck_sim/blob/main/truck-sim.mp4)
